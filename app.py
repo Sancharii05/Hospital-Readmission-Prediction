@@ -3,7 +3,8 @@ import pandas as pd
 import numpy as np
 import pickle
 from streamlit_extras.metric_cards import style_metric_cards
-import plotly.express as px
+
+
 
 # Load model
 model = pickle.load(open("xgboost_model.pkl", "rb"))
